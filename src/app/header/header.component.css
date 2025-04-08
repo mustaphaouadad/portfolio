@@ -1,0 +1,47 @@
+.links{
+    display: flex;
+    margin: 25px;
+}
+
+a{
+    display: flex;
+    margin:0.25rem  1rem;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    width: 100px;
+    img{
+        width: 100px;
+        border-radius: 100px;
+    }
+    &::before{
+        content: "";
+        opacity: 0; 
+        transition: all 0.2s;
+        position: absolute;
+        background: radial-gradient(#223640 40%, transparent 70%);
+        height: 150px;
+        width: 150px;
+        top: -25px;
+        left: -25px;
+       
+        border-radius: 100%;
+        z-index: -5;
+    }
+
+    div.hidden-label{
+        font-size: 0.85rem;
+        transition: all 0.2s;
+         opacity: 0; 
+        color: #fff;
+    }
+
+    &:focus, &:hover{
+        &::before,  div.hidden-label{
+            opacity: 1;
+        }
+    }
+
+}
+
