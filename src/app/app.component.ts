@@ -6,6 +6,7 @@ import { ProjectComponent } from './project/project.component';
 import { HeaderComponent } from './header/header.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,8 @@ import { NavbarComponent } from './navbar/navbar.component';
      ProjectComponent,
      HeaderComponent,
      ExperienceComponent,
-     NavbarComponent
+     NavbarComponent,
+     FooterComponent
     ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
