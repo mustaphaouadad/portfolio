@@ -1,1 +1,19 @@
-<p>skills works!</p>
+<div class="skill-wrapper"
+(mousemove)="mousemove($event)"
+
+
+>
+  <div
+    *ngFor="let skill of skills; index as i"
+    class="skill"
+    [style.left]="currentlyDragging == i ? mouseX + 'px' :skillPosition[i][0] + '%'"
+    [style.top]="currentlyDragging == i ? mouseY + 'px' :skillPosition[i][1]+ '%'"
+    [class.dragging]="currentlyDragging == i"
+
+    [style.transform]="skillPosition[i][2]"
+    (mousedown)="startDragging(i)"
+    (mouseup)="stopDragging()"
+  >
+    {{ skill }}
+  </div>
+</div>

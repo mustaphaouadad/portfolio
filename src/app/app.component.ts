@@ -5,6 +5,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectComponent } from './project/project.component';
 import { HeaderComponent } from './header/header.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import { ExperienceComponent } from './experience/experience.component';
      SkillsComponent,
      ProjectComponent,
      HeaderComponent,
-     ExperienceComponent
+     ExperienceComponent,
+     NavbarComponent
     ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
