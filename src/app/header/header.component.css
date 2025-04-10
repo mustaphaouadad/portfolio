@@ -1,15 +1,48 @@
-.links{
+
+.header-content {
     display: flex;
-    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.photo {
+    flex: 0 0 auto;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+.intro {
+    max-width: 600px;
 }
 
 
-a img {
-    width: 100px;
-    height: 100px; /* غادي نخلي الصورة مربعة باش تكون واضحة */
-    border-radius: 50%; /* حتّى الصورة تكون دائرية */
-    object-fit: cover; /* باش الصورة تتكيف مع حجم العنصر ديالها */
-    border: 2px solid white; /* خط أبيض حول الصورة باش يبان ديالها */
+
+
+
+
+
+
+
+
+
+
+.links{
+    display: flex;
+    margin: 25px;
 }
 
 a{
