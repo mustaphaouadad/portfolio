@@ -16,7 +16,9 @@ main {
   
 
 body{
-    background-color: #315162;
+    background: linear-gradient(135deg, #315162, #b18f33);
+
+
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
