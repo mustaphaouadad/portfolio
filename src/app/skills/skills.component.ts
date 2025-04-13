@@ -11,7 +11,7 @@ type SkillPosition = [number,number,string];
   styleUrl: './skills.component.css'
 })
 export class SkillsComponent implements OnInit {
-  skills = ["angular", "java EE","javascript","php","html","css","react","laravel","bootstrap", "java EE","javascript","php","html","css","react","laravel","bootstrap"]
+  skills = ["angular", "java EE","javascript","php","html","css","react","laravel","bootstrap"]
   skillPosition:SkillPosition[] = [];
   
  

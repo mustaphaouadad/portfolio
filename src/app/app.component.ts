@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +20,10 @@ import { FooterComponent } from './footer/footer.component';
      HeaderComponent,
      ExperienceComponent,
      NavbarComponent,
-     FooterComponent
+     FooterComponent,
+     ContactComponent,
+     FormsModule
+
     ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
