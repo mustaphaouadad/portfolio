@@ -1,9 +1,18 @@
-.project{
 
-    display: flex;
-    img{
-        width: 50%;
-        
-    }
+
+
+
+.project-link {
+    text-decoration: none;
+    color: inherit; 
+    display: block; 
 }
+
+
+
+.project img {
+    width:100%; 
+    height: auto; 
+}
+
 
