@@ -1,27 +1,25 @@
-# Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+Bienvenue dans mon portfolio en ligne développé avec Angular, TypeScript, HTML et CSS.
+Ce projet met en avant mes compétences à travers une interface interactive, responsive et professionnelle.
 
-## Development server
+✨ Fonctionnalités :
+Présentation claire de mes projets et compétences
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Section contact avec formulaire fonctionnel
 
-## Code scaffolding
+Design moderne et responsive
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Déploiement via Netlify
 
-## Build
+📦 Technologies utilisées :
+Angular 17+
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+HTML / CSS (Flexbox, Grid)
 
-## Running unit tests
+TypeScript
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Netlify pour le déploiement
 
-## Running end-to-end tests
+🎯 Objectif :
+Présenter mes réalisations de manière dynamique et accessible, renforçant ainsi ma visibilité professionnelle.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
